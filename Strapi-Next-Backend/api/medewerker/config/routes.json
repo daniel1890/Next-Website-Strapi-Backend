@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/medewerkers",
+      "handler": "medewerker.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/medewerkers/count",
+      "handler": "medewerker.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/medewerkers/:id",
+      "handler": "medewerker.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/medewerkers",
+      "handler": "medewerker.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/medewerkers/:id",
+      "handler": "medewerker.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/medewerkers/:id",
+      "handler": "medewerker.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
